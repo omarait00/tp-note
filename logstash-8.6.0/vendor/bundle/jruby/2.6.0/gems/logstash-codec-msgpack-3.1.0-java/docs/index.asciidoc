@@ -1,0 +1,64 @@
+:plugin: msgpack
+:type: codec
+
+///////////////////////////////////////////
+START - GENERATED VARIABLES, DO NOT EDIT!
+///////////////////////////////////////////
+:version: %VERSION%
+:release_date: %RELEASE_DATE%
+:changelog_url: %CHANGELOG_URL%
+:include_path: ../../../../logstash/docs/include
+///////////////////////////////////////////
+END - GENERATED VARIABLES, DO NOT EDIT!
+///////////////////////////////////////////
+
+[id="plugins-{type}s-{plugin}"]
+
+=== Msgpack codec plugin
+
+include::{include_path}/plugin_header.asciidoc[]
+
+==== Description
+
+This codec reads and produces MessagePack encoded content.
+
+[id="plugins-{type}s-{plugin}-options"]
+==== Msgpack Codec configuration options
+
+[cols="<,<,<",options="header",]
+|=======================================================================
+|Setting |Input type|Required
+| <<plugins-{type}s-{plugin}-format>> |<<string,string>>|No
+| <<plugins-{type}s-{plugin}-target>> |<<string,string>>|No
+|=======================================================================
+
+&nbsp;
+
+[id="plugins-{type}s-{plugin}-format"]
+===== `format` 
+
+  * Value type is <<string,string>>
+  * There is no default value for this setting.
+
+[id="plugins-{type}s-{plugin}-target"]
+===== `target`
+
+  * Value type is <<string,string>>
+  * There is no default value for this setting.
+
+Define the target field for placing the decoded values. If this setting is not
+set, data will be stored at the root (top level) of the event.
+
+For example, if you want data to be put under the `document` field:
+[source,ruby]
+    input {
+      tcp {
+        port => 4242
+        codec => msgpack {
+          target => "[document]"
+        }
+      }
+    }
+
+
+

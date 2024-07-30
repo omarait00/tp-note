@@ -1,0 +1,13 @@
+{
+  "id": "management",
+  "version": "kibana",
+  "server": true,
+  "ui": true,
+  "optionalPlugins": ["home"],
+  "requiredPlugins": ["share"],
+  "requiredBundles": ["kibanaReact", "kibanaUtils"],
+  "owner": {
+    "name": "Vis Editors",
+    "githubTeam": "kibana-visualizations"
+  }
+}

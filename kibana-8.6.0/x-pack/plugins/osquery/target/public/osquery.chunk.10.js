@@ -1,0 +1,3 @@
+/*! Copyright Elasticsearch B.V. and/or licensed to Elasticsearch B.V. under one or more contributor license agreements. 
+ * Licensed under the Elastic License 2.0; you may not use this file except in compliance with the Elastic License 2.0. */
+(window.osquery_bundle_jsonpfunction=window.osquery_bundle_jsonpfunction||[]).push([[10],{56:function(n,o,e){"use strict";e.d(o,"a",(function(){return s}));var t=e(0),r=e(6);const s=()=>{const[n,o]=Object(t.useState)(),{notifications:{toasts:e}}=Object(r.e)().services;return(t,r)=>{var s,u;n&&e.remove(n),t&&o(e.addError(t,{title:(null==t||null===(s=t.body)||void 0===s?void 0:s.error)||(null==t||null===(u=t.body)||void 0===u?void 0:u.message),...r}))}}}}]);

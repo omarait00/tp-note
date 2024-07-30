@@ -1,0 +1,3 @@
+/*! Copyright Elasticsearch B.V. and/or licensed to Elasticsearch B.V. under one or more contributor license agreements. 
+ * Licensed under the Elastic License 2.0; you may not use this file except in compliance with the Elastic License 2.0. */
+(window.observability_bundle_jsonpfunction=window.observability_bundle_jsonpfunction||[]).push([[11],{103:function(n,t,e){"use strict";e.d(t,"a",(function(){return u}));var o=e(0);const u=Object(o.createContext)({})},90:function(n,t,e){"use strict";e.d(t,"a",(function(){return i}));var o=e(0),u=e(103);function i(){return Object(o.useContext)(u.a)}}}]);

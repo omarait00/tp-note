@@ -1,0 +1,3 @@
+/*! Copyright Elasticsearch B.V. and/or licensed to Elasticsearch B.V. under one or more contributor license agreements. 
+ * Licensed under the Elastic License 2.0; you may not use this file except in compliance with the Elastic License 2.0. */
+(window.triggersActionsUi_bundle_jsonpfunction=window.triggersActionsUi_bundle_jsonpfunction||[]).push([[41],{288:function(t,i,n){"use strict";n.r(i),n(1);var e=n(21),s=n(48),u=n(4),c=n(0);i.default=({alert:t})=>Object(c.jsx)(u.EuiTitle,{size:"m"},Object(c.jsx)("h2",null,Object(e.get)(t,s.s)))}}]);

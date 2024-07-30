@@ -1,0 +1,20 @@
+{
+  "extends": "../../../tsconfig.base.json",
+  "compilerOptions": {
+    "outDir": "./target/types",
+    "emitDeclarationOnly": true,
+    "declaration": true,
+    "isolatedModules": true
+  },
+  "include": [
+    "common/**/*",
+    "public/**/*",
+    "server/**/*",
+    "__fixtures__/**/*",
+  ],
+  "kbn_references": [
+    { "path": "../../core/tsconfig.json" },
+    { "path": "../presentation_util/tsconfig.json" },
+    { "path": "../expressions/tsconfig.json" },
+  ]
+}

@@ -1,0 +1,3 @@
+/*! Copyright Elasticsearch B.V. and/or licensed to Elasticsearch B.V. under one or more contributor license agreements. 
+ * Licensed under the Elastic License 2.0; you may not use this file except in compliance with the Elastic License 2.0. */
+(window.osquery_bundle_jsonpfunction=window.osquery_bundle_jsonpfunction||[]).push([[11],{159:function(e,t,n){"use strict";n.r(t),n.d(t,"default",(function(){return c}));var u=n(0),a=n.n(u),r=n(2),o=n(101);const c=e=>{const{externalReferenceMetadata:t}=e;return a.a.createElement(r.EuiFlexGroup,{"data-test-subj":"osquery-attachment-content"},a.a.createElement(r.EuiFlexItem,null,a.a.createElement(o.b,{actionId:t.actionId,queryId:t.queryId,agentIds:t.agentIds})))}}}]);
